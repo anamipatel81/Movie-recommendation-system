@@ -29,10 +29,15 @@ Recommendations are displayed side-by-side with posters and titles.
 movie_recommendation_system/
 │
 ├── app.py                 # Main Streamlit app
+
 ├── movies_dict.pkl        # Movie metadata dictionary (title, etc.)
+
 ├── similarity.pkl         # Precomputed similarity matrix
+
 ├── README.md              # This file
+
 ├── requirements.txt       # Python dependencies
+
 └── .venv/                 # Virtual environment (optional, not uploaded)
 
 **🔧 Installation**
