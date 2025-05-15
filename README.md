@@ -1,8 +1,8 @@
-#🎬 Movie Recommendation System
+**🎬 Movie Recommendation System**
 
 A simple and intuitive Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. It allows users to select a movie and get five similar movie recommendations, complete with poster images fetched from the OMDB API.
 
-#🚀 Features
+**🚀 Features**
 
 Recommends 5 similar movies based on content similarity.
 
@@ -12,7 +12,7 @@ Clean and interactive web UI powered by Streamlit.
 
 Utilizes precomputed similarity matrix for fast results.
 
-#🧠 How It Works
+**🧠 How It Works**
 
 A movie is selected by the user.
 
@@ -24,7 +24,7 @@ Poster images are fetched in real time from the OMDB API using movie titles.
 
 Recommendations are displayed side-by-side with posters and titles.
 
-#🗂 Project Structure
+**🗂 Project Structure**
 
 bash
 Copy
@@ -57,7 +57,9 @@ bash
 Copy
 Edit
 streamlit run app.py
-🔑 API Key
+
+**🔑 API Key**
+
 This project uses the OMDB API to fetch poster images.
 You need an API key (already included in app.py):
 
@@ -67,7 +69,8 @@ Edit
 http://www.omdbapi.com/?t=MovieTitle&apikey=a7612589
 You can get your own key if needed.
 
-✅ Requirements
+**✅ Requirements**
+
 Python 3.7+
 
 Streamlit
@@ -81,14 +84,16 @@ Requests
 Pickle (standard lib)
 
 
-📌 Future Improvements
+**📌 Future Improvements**
+
 Add genre-based or collaborative filtering.
 
 Use IMDb IDs for more accurate poster matching.
 
 Add user login and personalized history.
 
-💡 Credits
+**💡 Credits**
+
 Movie data: Your dataset (preprocessed into movies_dict.pkl)
 
 Poster images: OMDB API
