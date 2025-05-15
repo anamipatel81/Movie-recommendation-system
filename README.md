@@ -47,6 +47,7 @@ movie_recommendation_system/
 Clone the repository:
 
 git clone https://github.com/yourusername/movie_recommendation_system.git
+
 cd movie_recommendation_system
 
 
