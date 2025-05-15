@@ -27,7 +27,9 @@ Recommendations are displayed side-by-side with posters and titles.
 **🗂 Project Structure**
 
 movie_recommendation_system/
+
 │
+
 ├── app.py                 # Main Streamlit app
 
 ├── movies_dict.pkl        # Movie metadata dictionary (title, etc.)
@@ -47,13 +49,16 @@ Clone the repository:
 git clone https://github.com/yourusername/movie_recommendation_system.git
 cd movie_recommendation_system
 
+
 Install dependencies:
 
 pip install -r requirements.txt
 
+
 Run the Streamlit app:
 
 streamlit run app.py
+
 
 **🔑 API Key**
 
