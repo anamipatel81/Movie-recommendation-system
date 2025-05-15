@@ -1,7 +1,9 @@
-🎬 Movie Recommendation System
+#🎬 Movie Recommendation System
+
 A simple and intuitive Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. It allows users to select a movie and get five similar movie recommendations, complete with poster images fetched from the OMDB API.
 
-🚀 Features
+#🚀 Features
+
 Recommends 5 similar movies based on content similarity.
 
 Displays movie posters using the OMDB API.
@@ -10,7 +12,8 @@ Clean and interactive web UI powered by Streamlit.
 
 Utilizes precomputed similarity matrix for fast results.
 
-🧠 How It Works
+#🧠 How It Works
+
 A movie is selected by the user.
 
 A similarity score (cosine similarity) is calculated from a precomputed matrix.
@@ -21,7 +24,8 @@ Poster images are fetched in real time from the OMDB API using movie titles.
 
 Recommendations are displayed side-by-side with posters and titles.
 
-🗂 Project Structure
+#🗂 Project Structure
+
 bash
 Copy
 Edit
