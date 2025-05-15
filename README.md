@@ -26,9 +26,6 @@ Recommendations are displayed side-by-side with posters and titles.
 
 **🗂 Project Structure**
 
-bash
-Copy
-Edit
 movie_recommendation_system/
 │
 ├── app.py                 # Main Streamlit app
@@ -37,36 +34,30 @@ movie_recommendation_system/
 ├── README.md              # This file
 ├── requirements.txt       # Python dependencies
 └── .venv/                 # Virtual environment (optional, not uploaded)
-🔧 Installation
+
+**🔧 Installation**
+
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/movie_recommendation_system.git
 cd movie_recommendation_system
+
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run the Streamlit app:
 
-bash
-Copy
-Edit
 streamlit run app.py
 
 **🔑 API Key**
 
 This project uses the OMDB API to fetch poster images.
+
 You need an API key (already included in app.py):
 
-python
-Copy
-Edit
 http://www.omdbapi.com/?t=MovieTitle&apikey=a7612589
+
 You can get your own key if needed.
 
 **✅ Requirements**
@@ -100,5 +91,6 @@ Poster images: OMDB API
 
 UI: Streamlit
 
-📜 License
+**📜 License**
+
 This project is open-source and available under the MIT License.
