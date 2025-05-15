@@ -44,19 +44,19 @@ movie_recommendation_system/
 
 **🔧 Installation**
 
-Clone the repository:
+*Clone the repository:*
 
 git clone https://github.com/yourusername/movie_recommendation_system.git
 
 cd movie_recommendation_system
 
 
-Install dependencies:
+*Install dependencies:*
 
 pip install -r requirements.txt
 
 
-Run the Streamlit app:
+*Run the Streamlit app:*
 
 streamlit run app.py
 
