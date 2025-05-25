@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/03d8705c-257b-4049-a312-7c3baee9786c)
+
 **🎬 Movie Recommendation System**
 
 A simple and intuitive Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. It allows users to select a movie and get five similar movie recommendations, complete with poster images fetched from the OMDB API.
