@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/03d8705c-257b-4049-a312-7c3baee9786c)
-
 # 🎬 Movie Recommendation System
 
 A simple and intuitive Movie Recommendation System built using Python, Pandas, Scikit-learn, and Streamlit. It allows users to select a movie and get five similar movie recommendations, complete with poster images fetched from the OMDB API.
+
+![image](https://github.com/user-attachments/assets/03d8705c-257b-4049-a312-7c3baee9786c)
 
 # 🚀 Features
 
@@ -48,47 +48,20 @@ movie_recommendation_system/
 
 1. Clone the repository:
 
-```bash
+    ```bash
+    git clone https://github.com/anamipatel/movie-recommendation-system.git
+    cd movie-recommendation-system
 
-git clone https://github.com/anamipatel/movie-recommendation-system.git
-cd movie-recommendation-system
+2.Install dependencies: 
 
-
-2.Install dependencies:
-
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
 ## Run the Streamlit app:
 
-streamlit run app.py
-
-
-**🔑 API Key**
-
-This project uses the OMDB API to fetch poster images.
-
-You need an API key (already included in app.py):
-
-http://www.omdbapi.com/?t=MovieTitle&apikey=a7612589
-
-You can get your own key if needed.
-
-**✅ Requirements**
-
-Python 3.7+
-
-Streamlit
-
-Pandas
-
-Scikit-learn
-
-Requests
-
-Pickle (standard lib)
-
+    ```bash
+    streamlit run app.py
 
 **📌 Future Improvements**
 
@@ -97,15 +70,3 @@ Add genre-based or collaborative filtering.
 Use IMDb IDs for more accurate poster matching.
 
 Add user login and personalized history.
-
-**💡 Credits**
-
-Movie data: Your dataset (preprocessed into movies_dict.pkl)
-
-Poster images: OMDB API
-
-UI: Streamlit
-
-**📜 License**
-
-This project is open-source and available under the MIT License.
