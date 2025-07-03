@@ -7,23 +7,16 @@ A simple and intuitive Movie Recommendation System built using Python, Pandas, S
 # 🚀 Features
 
 Recommends 5 similar movies based on content similarity.
-
 Displays movie posters using the OMDB API.
-
 Clean and interactive web UI powered by Streamlit.
-
 Utilizes precomputed similarity matrix for fast results.
 
 # 🧠 How It Works
 
 A movie is selected by the user.
-
 A similarity score (cosine similarity) is calculated from a precomputed matrix.
-
 The top 5 most similar movies are retrieved.
-
 Poster images are fetched in real time from the OMDB API using movie titles.
-
 Recommendations are displayed side-by-side with posters and titles.
 
 ## 🗂 Project Structure
@@ -47,19 +40,14 @@ movie_recommendation_system/
 ## 🔧 Installation
 
 1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/anamipatel/movie-recommendation-system.git
-    cd movie-recommendation-system
-
-2.Install dependencies: 
-
-    ```bash
-    pip install -r requirements.txt
-
+   ```bash
+   git clone https://github.com/anamipatel81/Movie-recommendation-system.git
+   cd Movie-recommendation-system
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ## Run the Streamlit app:
-
     ```bash
     streamlit run app.py
 
