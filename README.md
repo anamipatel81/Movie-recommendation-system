@@ -54,13 +54,13 @@ movie_recommendation_system/
 
 2.Install dependencies: 
 
-   ```bash
+    ```bash
    pip install -r requirements.txt
 
 
 ## Run the Streamlit app:
 
-   ```bash
+    ```bash
    streamlit run app.py
 
 **📌 Future Improvements**
