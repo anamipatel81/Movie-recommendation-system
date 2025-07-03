@@ -47,11 +47,11 @@ movie_recommendation_system/
    ```bash
    pip install -r requirements.txt
 
-## Run the Streamlit app:
+##  Run the Streamlit app:
     ```bash
     streamlit run app.py
 
-**📌 Future Improvements**
+# 📌 Future Improvements
 
 Add genre-based or collaborative filtering.
 
